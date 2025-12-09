@@ -16,6 +16,7 @@ BuildRequires:	python3-build
 BuildRequires:	python3-installer
 BuildRequires:	python3-modules >= 1:3.2
 %if %{with tests}
+BuildRequires:	python3-psutil
 BuildRequires:	python3-pytest-cov
 BuildRequires:	python3-pytest-mock
 BuildRequires:	python3-pytest-timeout
